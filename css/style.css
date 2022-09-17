@@ -1,5 +1,6 @@
 :root {
   --color-white-1: #ffffff;
+  --color-black-opacity90: #00000090;
   --color-black-1: #000000;
   --color-black-2: #333333;
   --color-grey-1: #666666;
@@ -40,7 +41,17 @@ img {
 }
 
 body {
+  min-width: 320px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+.btn-reset {
+  background-color: transparent;
+  border: 0;
 }
 
 .container {
@@ -83,6 +94,14 @@ body {
 
 .header__login {
   margin-left: auto;
+}
+
+.header__menu-block {
+  display: none;
+}
+
+.header__search-top {
+  display: none;
 }
 
 .header__login-icon {
