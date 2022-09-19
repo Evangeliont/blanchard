@@ -113,9 +113,6 @@
           </svg>
         </button>
         <form action="#" class="header__search-top search-top">
-          <!-- Нужно будет доработать поле поиска -->
-          <!-- Моя логика сейчас в том, чтобы вынести кнопку поиска -->
-          <!-- Затем дублировать сюда форму поиска -->
           <button class="search-top__in-form btn-reset">
             <svg class="search-top__icon" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="9.15446" height="2.28862" transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)"/>
@@ -133,7 +130,89 @@
           </div>
         </form>
       </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container header__container flex">
+        <ul class="header__dropdown dropdown flex">
+          <li class="dropdown__item">
+            <button class="dropdown__btn btn-reset">
+              Реализм
+              <svg class="dropdown__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 1L6 6L1 1"/>
+              </svg>
+            </button>
+            <div class="dropdown__content">
+              <ul class="dropdown__list">
+                <li class="dropdown__element element-img-1">
+                  <a href="#" class="dropdown__link">
+                    Тинторетто
+                  </a>
+                </li>
+                <li class="dropdown__element element-img-2">
+                  <a href="#" class="dropdown__link">
+                    Фридрих
+                  </a>
+                </li>
+                <li class="dropdown__element element-img-3">
+                  <a href="#" class="dropdown__link">
+                    Леонардо
+                  </a>
+                </li>
+                <li class="dropdown__element element-img-4">
+                  <a href="#" class="dropdown__link">
+                    Верроккьо
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown__item">
+            <button class="dropdown__btn btn-reset">
+              Импрессионизм
+              <svg class="dropdown__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 1L6 6L1 1"/>
+              </svg>
+            </button>
 
+          </li>
+          <li class="dropdown__item">
+            <button class="dropdown__btn btn-reset">
+              Постимпрессионизм
+              <svg class="dropdown__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 1L6 6L1 1"/>
+              </svg>
+            </button>
+
+          </li>
+          <li class="dropdown__item">
+            <button class="dropdown__btn btn-reset">
+              Авангард
+              <svg class="dropdown__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 1L6 6L1 1"/>
+              </svg>
+            </button>
+
+          </li>
+          <li class="dropdown__item">
+            <button class="dropdown__btn btn-reset">
+              Футуризм
+              <svg class="dropdown__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 1L6 6L1 1"/>
+              </svg>
+            </button>
+
+          </li>
+        </ul>
+        <form action="#" class="header__bottom-search search-bottom">
+          <button class="search-bottom__btn btn-reset">
+            <svg class="search__bottom-icon" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="9.15446" height="2.28862" transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1246 24.174C10.0376 24.174 5.32763 19.2726 5.32763 13.5104C5.32763 7.74823 10.0376 2.84676 16.1246 2.84676C22.2115 2.84676 26.9215 7.74823 26.9215 13.5104C26.9215 19.2726 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14869 8.76285 0.180847 16.1246 0.180847C23.4863 0.180847 29.4541 6.14869 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z" fill="white"/>
+            </svg>
+          </button>
+          <input class="search-bottom__submit btn-reset" type="search" name="search" placeholder="Поиск по сайту">
+        </form>
+      </div>
     </div>
 
   </header>
