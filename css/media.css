@@ -20,7 +20,7 @@
     height: 42px;
   }
 
-  .header__top {
+  .header__container {
     justify-content: space-between;
   }
 
@@ -29,6 +29,7 @@
   }
 
   .burger__btn {
+    display: block;
     z-index: 1;
     cursor: pointer;
     position: relative;
@@ -160,6 +161,7 @@
   }
 
   .search-top__btn {
+    display: block;
     padding: 0;
     cursor: pointer;
   }

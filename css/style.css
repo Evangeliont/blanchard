@@ -72,13 +72,17 @@ body {
   display: flex;
 }
 
-.header {
-  background-color: var(--color-black-1);
+.header__container {
+  align-items: center;
 }
 
 .header__top {
-  align-items: center;
   padding: 28px 0;
+  background-color: var(--color-black-1);
+}
+
+.burger__btn {
+  display: none;
 }
 
 .header__logo {
@@ -153,4 +157,8 @@ body {
 .header__login-link:active .header__login-icon {
   color: var(--color-purple-4);
   fill: var(--color-purple-4);
+}
+
+.search-top__btn {
+  display: none;
 }
