@@ -85,6 +85,12 @@ body {
   margin-right: 179px;
 }
 
+.header__logo-img {
+  max-width: 100%;
+  width: 173px;
+  height: 40px;
+}
+
 .header__item:not(:last-child) {
   margin-right: 62px;
 }
