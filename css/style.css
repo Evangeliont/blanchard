@@ -138,7 +138,7 @@ body {
 }
 
 .header__login-icon {
-  transition: fill .3s ease-in-out
+  transition: fill .3s ease-in-out;
 }
 
 .header__link:focus-visible,
@@ -197,7 +197,7 @@ body {
 .dropdown__icon {
   transform: rotate(180deg) translateY(1px);
   stroke: var(--color-white-1);
-  transition: stroke .3s ease-in-out, rotate .3s ease-in-out;
+  transition: stroke .3s ease-in-out, transform .3s ease-in-out;
 }
 
 .dropdown__btn:focus-visible {
@@ -214,14 +214,14 @@ body {
 
 .dropdown__btn:active,
 .dropdown__btn:active .dropdown__icon  {
-  stroke: var(--color-purple-3);
+  stroke: var(--color-purple-4);
   color: var(--color-purple-4);
 }
 
 .dropdown__btn--active,
 .dropdown__btn--active .dropdown__icon{
   transform: rotate(0deg);
-  stroke: var(--color-purple-3);
+  stroke: var(--color-purple-4);
   color: var(--color-purple-4);
 }
 
