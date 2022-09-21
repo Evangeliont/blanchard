@@ -195,7 +195,7 @@ body {
 }
 
 .dropdown__icon {
-  transform: rotate(180deg);
+  transform: rotate(180deg) translateY(1px);
   stroke: var(--color-white-1);
   transition: stroke .3s ease-in-out, rotate .3s ease-in-out;
 }
@@ -219,7 +219,8 @@ body {
 }
 
 .dropdown__btn--active,
-.dropdown__icon--active {
+.dropdown__btn--active .dropdown__icon{
+  transform: rotate(0deg);
   stroke: var(--color-purple-3);
   color: var(--color-purple-4);
 }
