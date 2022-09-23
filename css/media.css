@@ -14,6 +14,10 @@
     padding-right: 50px;
   }
 
+  .header__bottom {
+    display: none;
+  }
+
   .header__logo-img {
     max-width: 100%;
     width: 187px;
@@ -194,6 +198,19 @@
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .header__search-top--active {
+    width: 660px; /* произвольный размер */
+  }
 
-} */
+  .search-top__submit {
+    width: 600px; /* произвольный размер */
+  }
+}
+
+@media (max-width: 375px) {
+  .header__logo-img {
+    width: 97px;
+    height: 22px;
+  }
+}

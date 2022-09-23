@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/fonts.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -306,14 +307,38 @@
         </form>
       </div>
     </div>
-
   </header>
   <main>
-
+    <section class="hero">
+      <div class="hero__swiper swiper">
+        <div class="swiper-wrapper animate-reduce">
+          <div class="swiper-slide hero__slide hero__slide-1"></div>
+          <div class="swiper-slide hero__slide hero__slide-2"></div>
+          <div class="swiper-slide hero__slide hero__slide-3"></div>
+        </div>
+      </div>
+      <div class="container hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title title">
+            Прикоснитесь к&nbsp;прекрасному
+          </h1>
+          <p class="hero__description description">
+            Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений
+          </p>
+          <div class="hero__action">
+            <a href="#" class="hero__link-btn">
+              Подписаться на&nbsp;рассылку
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
 
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/swiperScripts.js"></script>
   <script src="./js/burger-menu.js"></script>
   <script src="./js/search-btn.js"></script>
   <script src="./js/dropdown.js"></script>
