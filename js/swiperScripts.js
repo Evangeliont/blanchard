@@ -1,4 +1,4 @@
-// const swiperHero = document.querySelector('.hero')
+const swiperHero = document.querySelector('.hero')
 const swiper = new Swiper('.hero__swiper', {
   slidesPerView: 1,
   speed: 2000,
@@ -8,3 +8,4 @@ const swiper = new Swiper('.hero__swiper', {
   effect: 'fade',
   allowTouchMove: false,
 })
+

@@ -7,6 +7,7 @@
   <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+  <link rel="stylesheet" href="./libs/choices.min.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/fonts.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -354,12 +355,67 @@
         </p>
       </div>
     </section>
+    <section class="gallery offset">
+      <div class="container gallery__container">
+        <div class="gallery__content flex">
+          <div class="gallery__content-left flex">
+            <h2 class="gallery__title title">
+              Галерея
+            </h2>
+            <h3 class="gallery__subtitle title">
+              Фильтр:
+            </h3>
+            <select name="select" id="selectCustom">
+              <option value="Живопись"></option>
+              <option value="Рисунок">Рисунок</option>
+              <option value="Скульптура">Скульптура</option>
+            </select>
+            <form class="gallery__checkbox-period" action="#">
+              <label class="checkbox-period__block" for="checkbox-19">
+                <input class="checkbox-reset checkbox-period__gallery checkbox-period__19" type="checkbox"
+                  name="checkbox" id="checkbox-19">
+                XIX век
+                <span></span>
+              </label>
+              <label class="checkbox-period__block" for="checkbox-20">
+                <input class="checkbox-reset checkbox-period__gallery checkbox-period__20" type="checkbox"
+                  name="checkbox" id="checkbox-20">
+                XX век
+                <span></span>
+              </label>
+              <label class="checkbox-period__block" for="checkbox-21">
+                <input class="checkbox-reset checkbox-period__gallery checkbox-period__21" type="checkbox"
+                  name="checkbox" id="checkbox-21">
+                Современность
+                <span></span>
+              </label>
+            </form>
+          </div>
+          <div class="gallery__content-right">
+            <div class="gallery__slider swiper">
+              <div class="gallery__slider-button">
+                <button class="gallery__slider-btn--prev swiper-btn--prev">prev</button>
+                <button class="gallery__slider-btn--next swiper-btn--next">next</button>
+              </div>
+              <div class="gallery__slider-wrapper swiper-wrapper">
+                <button class="gallery__slide swiper-slide btn-reset">
+                  <picture>
+                    <img class="gallery__slide-img swiper-slide--img" src="https://phonoteka.org/src.php?src=https://phonoteka.org/uploads/posts/2021-05/thumbs/1622164116_9-phonoteka_org-p-posteri-pop-art-krasivo-11.jpg&w=460&h=320" alt="изображение">
+                  </picture>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
 
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="./libs/choices.min.js"></script>
+  <script src="./js/choices-plugin.js"></script>
   <script src="./js/swiperScripts.js"></script>
   <script src="./js/burger-menu.js"></script>
   <script src="./js/search-btn.js"></script>
