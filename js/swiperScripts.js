@@ -1,5 +1,4 @@
-const swiperHero = document.querySelector('.hero')
-const swiper = new Swiper('.hero__swiper', {
+const swiperFade = new Swiper('.hero__swiper', {
   slidesPerView: 1,
   speed: 2000,
   autoplay: {
@@ -23,6 +22,24 @@ const gallerySlider = new Swiper(".gallery__slider", {
   navigation: {
     nextEl: ".gallery__slider-btn--next",
     prevEl: ".gallery__slider-btn--prev",
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 0
+    },
+    576: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      spaceBetween: 30
+    },
+
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 50
+    }
   },
 
   a11y: {

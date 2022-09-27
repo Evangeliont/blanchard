@@ -39,6 +39,7 @@ li {
 }
 
 img {
+  font-size: 0;
   max-width: 100%;
 }
 
@@ -61,11 +62,12 @@ body {
 .btn-reset {
   background-color: transparent;
   border: 0;
+  padding: 0;
 }
 
 .offset {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 82px;
+  padding-bottom: 68px;
 }
 
 .title,
@@ -578,17 +580,10 @@ body {
   background-size: cover;
 }
 
-/* .gallery__content-left,
-.gallery__content-right {
-  width: 50%;
-} */
-
-/* Остановился на контейнере */
-
 .gallery__content-left {
   flex-direction: column;
   justify-content: space-between;
-  min-width: 300px;
+  width: 400px;
   margin-right: 50px;
 }
 
@@ -613,8 +608,6 @@ body {
   line-height: 32px;
   color: var(--color-white-1);
 }
-
-/* plugin choices */
 
 .choices {
   margin: 0;
@@ -727,8 +720,6 @@ body {
   display: none;
 }
 
-/* --- */
-
 .gallery__checkbox-period {
   display: flex;
   flex-direction: column;
@@ -742,10 +733,6 @@ body {
   line-height: 32px;
   cursor: pointer;
   transition: .3s ease-in-out;
-}
-
-.checkbox-period__block:not(:last-child) {
-  margin-bottom: 20px;
 }
 
 .checkbox-reset {
@@ -794,11 +781,61 @@ body {
 }
 
 .gallery__slider-button {
+  padding-top: 23px;
   margin-bottom: 30px;
 }
 
 .gallery__btn {
   cursor: pointer;
+}
+
+.gallery .gallery__slide {
+  border: 0;
+  background-color: var(--color-black-opacity50);
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery .gallery__slide::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  background-color: #00000080;
+  background-image: url('../img/gallery/increase.png');
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0;
+  transition: z-index, opacity;
+  transition: .3s ease-in-out;
+}
+
+.gallery .gallery__slide::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-purple-opacity40);
+  opacity: 0;
+  z-index: -1;
+  transition: z-index, opacity;
+  transition: .3s ease-in-out;
+}
+
+.gallery__slide:hover::before {
+  z-index: 1;
+  opacity: 1;
+}
+
+.gallery__slide:active::after {
+  z-index: 1;
+  opacity: 1;
 }
 
 .gallery__slide-img {
