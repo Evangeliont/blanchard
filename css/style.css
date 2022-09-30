@@ -588,6 +588,8 @@ body {
 }
 
 .gallery__content-right {
+  display: flex;
+  flex-direction: column;
   max-width: 1150px;
   width: 100%;
   overflow: hidden;
@@ -781,12 +783,23 @@ body {
 }
 
 .gallery__slider-button {
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
   padding-top: 23px;
   margin-bottom: 30px;
 }
 
 .gallery__btn {
   cursor: pointer;
+}
+
+.gallery__slider--pagination {
+  width: 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color-white-1);
 }
 
 .gallery .gallery__slide {

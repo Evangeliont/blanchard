@@ -212,6 +212,29 @@
   .search-top__submit {
     width: 600px; /* произвольный размер */
   }
+
+  .gallery__content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .gallery__content-left {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .choices {
+    margin-bottom: 40px;
+    width: 281px;
+  }
+
+  .gallery__checkbox-period {
+    margin-bottom: 40px;
+  }
+
+  .gallery__slider-button {
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 650px) {
@@ -284,5 +307,35 @@
   .about__description {
     font-size: 14px;
     line-height: 28px;
+  }
+
+  .choices {
+    width: 290px;
+  }
+
+  .gallery__content-right {
+    align-items: center;
+  }
+
+  .gallery__slider-wrapper {
+    display: flex;
+    order: 1;
+  }
+
+  .gallery__slider-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .gallery__slider-button {
+    order: 2;
+    margin-bottom: 0;
+  }
+
+  .gallery__slider--pagination {
+    width: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-white-1);
   }
 }

@@ -19,6 +19,12 @@ const gallerySlider = new Swiper(".gallery__slider", {
   },
 
   spaceBetween: 50,
+
+  pagination: {
+    el: ".gallery__slider--pagination",
+    type: "fraction"
+  },
+
   navigation: {
     nextEl: ".gallery__slider-btn--next",
     prevEl: ".gallery__slider-btn--prev",
