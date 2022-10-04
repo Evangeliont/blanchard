@@ -1,5 +1,5 @@
 let accordion = new Accordion('.accordion__list', {
-  duration: 300,
+  duration: 700,
   elementClass:	'accordion__item',
   triggerClass: 'accordion__top',
   panelClass: 'accordion__bottom',
