@@ -923,8 +923,15 @@ body {
 
 .catalog__person--active {
   display: block;
-  max-width: 750px;
+  width: 100%;
   margin-right: 50px;
+}
+
+.catalog__btn-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--color-purple-3);
 }
 
 .catalog__img {
@@ -1102,6 +1109,7 @@ body {
 
 .accordion__btn-person {
   position: relative;
+  text-align: left;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
