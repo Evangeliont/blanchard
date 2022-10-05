@@ -54,4 +54,17 @@ const gallerySlider = new Swiper(".gallery__slider", {
   }
 });
 
+const eventsGallery = new Swiper('.events__slider', {
+  slidesPerView: 3,
+  slidesPerGroup: 2,
+  loop: false,
+  spaceBetween: 50,
+  pagination: {
+    el: '.events__pagination',
+  },
 
+  navigation: {
+    nextEl: '.events__btn--next',
+    prevEl: '.events__btn--perv',
+  },
+})
