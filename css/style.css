@@ -1402,7 +1402,7 @@ body {
 }
 
 .projects__swiper {
-  width: 90%;
+  width: 88%;
 }
 
 .projects__slider {
@@ -1417,7 +1417,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   height: 100%;
   width: 100%;
 }
