@@ -89,12 +89,12 @@ const eventsGallery = new Swiper('.events__swiper', {
 
   const projectsGallery = new Swiper('.projects__swiper', {
   slidesPerView: 3,
-  slidesPerGroup: 2,
+  slidesPerGroup: 3,
   loop: false,
   spaceBetween: 50,
 
   navigation: {
-    nextEl: '.projects__btn--next',
-    prevEl: '.projects__btn--prev',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 })

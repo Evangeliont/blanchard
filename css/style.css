@@ -1326,7 +1326,7 @@ body {
 }
 .evetns__btn--next {
   right: 0;
-  transform: translateX(20px);
+  transform: translateX(15px);
 }
 
 .evetns__btn--next.swiper-button-disabled,
@@ -1403,7 +1403,6 @@ body {
 
 .projects__swiper {
   width: 90%;
-  margin: 0 30px;
 }
 
 .projects__slider {
@@ -1418,8 +1417,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 10px;
-  /* height: 100%; */
+  padding: 10px 0;
+  height: 100%;
   width: 100%;
 }
 
@@ -1429,9 +1428,13 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
+.projects__slider:hover .projects__img {
+  filter: grayscale(0);
+}
+
 .projects__buttons {
   position: relative;
-  top: 75px;
+  top: 85px;
 }
 
 .projects__btn {
@@ -1439,11 +1442,18 @@ body {
   height: 30px;
 }
 
+.projects__btn--prev,
+.projects__btn--next {
+  position: absolute;
+  top: 0;
+}
+
 .projects__btn--prev {
   left: 0;
 }
+
 .projects__btn--next {
-  transform: rotate(180deg) translateX(30px);
+  transform: rotate(180deg);
   left: auto;
   right: 0;
 }
