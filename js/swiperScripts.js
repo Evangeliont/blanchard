@@ -84,14 +84,5 @@ const eventsGallery = new Swiper('.events__swiper', {
       slidesPerView: 3,
       slidesPerGroup: 3,
     },
-    1025: {
-      spaceBetween: 50,
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-      navigation: {
-        nextEl: '.events__btn--next',
-        prevEl: '.events__btn--perv',
-      },
-    },
   },
 })

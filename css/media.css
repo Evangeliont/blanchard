@@ -215,6 +215,14 @@
   .accordion__persons-list {
     column-gap: 40px;
   }
+
+  .events__buttons {
+    display: none;
+  }
+
+  .events__pagination {
+    display: block;
+  }
 }
 
 @media (max-width: 768px) {

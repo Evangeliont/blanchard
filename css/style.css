@@ -1182,6 +1182,22 @@ body {
 }
 
 .events__swiper {
+  padding-bottom: 50px;
+}
+
+.events__pagination {
+  display: none;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 5px);
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-grey-1);
+}
+
+.events__swiper {
   width: 100%;
 }
 
