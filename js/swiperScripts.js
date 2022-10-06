@@ -87,14 +87,21 @@ const eventsGallery = new Swiper('.events__swiper', {
   },
 })
 
-  const projectsGallery = new Swiper('.projects__swiper', {
+const projectsGallery = new Swiper('.projects__swiper', {
   slidesPerView: 3,
   slidesPerGroup: 3,
   loop: false,
   spaceBetween: 50,
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.projects__btn--next',
+    prevEl: '.projects__btn--prev',
   },
+
+  // breakpoints: {
+  //   1024: {
+  //     slidesPerView: 2,
+  //     slidesPerGroup: 2,
+  //   }
+  // }
 })
