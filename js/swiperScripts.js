@@ -52,9 +52,9 @@ const gallerySlider = new Swiper(".gallery__slider", {
     prevSlideMessage: 'Предыдущий',
     nextSlideMessage: 'Следующий',
   }
-});
+})
 
-const eventsGallery = new Swiper('.events__slider', {
+const eventsGallery = new Swiper('.events__swiper', {
   slidesPerView: 3,
   slidesPerGroup: 2,
   loop: false,
@@ -64,7 +64,34 @@ const eventsGallery = new Swiper('.events__slider', {
   },
 
   navigation: {
-    nextEl: '.events__btn--next',
-    prevEl: '.events__btn--perv',
+    nextEl: '.evetns__btn--next',
+    prevEl: '.evetns__btn--prev',
   },
+
+  // breakpoints: {
+  //   320: {
+  //     spaceBetween: 20,
+  //     slidesPerView: 1,
+  //     slidesPerGroup: 1,
+  //   },
+  //   577: {
+  //     spaceBetween: 34,
+  //     slidesPerView: 2,
+  //     slidesPerGroup: 2,
+  //   },
+  //   769: {
+  //     spaceBetween: 27,
+  //     slidesPerView: 3,
+  //     slidesPerGroup: 3,
+  //   },
+  //   1025: {
+  //     spaceBetween: 50,
+  //     slidesPerView: 3,
+  //     slidesPerGroup: 3,
+  //     navigation: {
+  //       nextEl: '.events__btn--next',
+  //       prevEl: '.events__btn--perv',
+  //     },
+  //   },
+  // },
 })
