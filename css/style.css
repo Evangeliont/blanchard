@@ -1588,3 +1588,16 @@ body {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
 }
+
+.footer {
+  padding: 50px 0;
+  background-color: #000000;
+}
+
+.footer__container {
+  justify-content: space-between;
+}
+
+.footer__vk {
+  margin-right: 20px;
+}
