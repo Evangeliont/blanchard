@@ -436,6 +436,10 @@
     margin-bottom: 12px;
     margin-right: 0;
   }
+
+  .yandex__map {
+    height: 320px;
+  }
 }
 
 @media (max-width: 375px) {
