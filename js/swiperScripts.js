@@ -88,6 +88,7 @@ const eventsGallery = new Swiper('.events__swiper', {
 })
 
 const projectsGallery = new Swiper('.projects__swiper', {
+  longSwipes: false,
   slidesPerView: 3,
   slidesPerGroup: 3,
   loop: false,
@@ -98,10 +99,19 @@ const projectsGallery = new Swiper('.projects__swiper', {
     prevEl: '.projects__btn--prev',
   },
 
-  // breakpoints: {
-  //   1024: {
-  //     slidesPerView: 2,
-  //     slidesPerGroup: 2,
-  //   }
-  // }
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+    },
+    769: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      spaceBetween: 34,
+    },
+    1025: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+  },
 })

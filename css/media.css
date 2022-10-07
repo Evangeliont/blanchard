@@ -228,6 +228,15 @@
     max-height: 49px;
     max-width: 80%;
   }
+
+  .projects__buttons {
+    top: 75px;
+  }
+
+  .projects__slider {
+    max-width: calc((100% - 54px) / 2);
+    height: 128px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -293,6 +302,15 @@
 
   .projects__img {
     max-height: 52px;
+  }
+
+  .projects__buttons {
+    top: 65px;
+  }
+
+  .projects__slider {
+    max-width: calc((100% - 38px) / 2);
+    height: 106px;
   }
 }
 
@@ -360,6 +378,10 @@
 
   .projects__img {
     max-height: 25px;
+  }
+
+  .projects__slider {
+    max-width: 100%;
   }
 }
 
