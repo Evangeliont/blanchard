@@ -1457,3 +1457,82 @@ body {
   left: auto;
   right: 0;
 }
+
+.contacts {
+  border: 1px solid var(--color-grey-4);
+}
+
+.contacts__container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0;
+}
+
+.contacts__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-black-2);
+}
+
+.contacts__street {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color-black-2);
+}
+
+.contacts__text {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.application__btn {
+  width: 270px;
+  height: 50px;
+  padding: 13px 20px;
+  outline: 1px solid var(--color-black-2);
+  border-radius: 100px;
+}
+
+.application__name,
+.application__tel {
+  margin-right: 20px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--color-grey-2);
+}
+
+
+.application__name::placeholder,
+.application__tel::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--color-grey-2);
+}
+
+.application__submit {
+  outline-offset: -2px;
+  outline: 2px solid var(--color-purple-3);
+  cursor: pointer;
+  font-weight: 700;
+  /* font-size: 18px; */
+  line-height: 25px;
+  color: var(--color-purple-3);
+}
+
+.application__submit-mobile {
+  display: none;
+}
+
+.contacts__whatsapp {
+  margin-right: 20px;
+}

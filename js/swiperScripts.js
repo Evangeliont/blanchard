@@ -116,12 +116,12 @@ const projectsGallery = new Swiper('.projects__swiper', {
       slidesPerGroup: 2,
     },
     769: {
-      spaceBetween: 49,
+      spaceBetween: 40,
       slidesPerView: 2,
       slidesPerGroup: 2,
     },
     1025: {
-      spaceBetween: 50,
+      spaceBetween: 45,
       slidesPerView: 3,
       slidesPerGroup: 3,
     },
