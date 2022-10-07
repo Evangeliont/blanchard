@@ -101,15 +101,27 @@ const projectsGallery = new Swiper('.projects__swiper', {
 
   breakpoints: {
     320: {
+      spaceBetween: 50,
       slidesPerView: 1,
       slidesPerGroup: 1,
     },
-    769: {
+    500: {
+      spaceBetween: 30,
       slidesPerView: 2,
       slidesPerGroup: 2,
+    },
+    600: {
       spaceBetween: 34,
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+    769: {
+      spaceBetween: 49,
+      slidesPerView: 2,
+      slidesPerGroup: 2,
     },
     1025: {
+      spaceBetween: 50,
       slidesPerView: 3,
       slidesPerGroup: 3,
     },
