@@ -1106,27 +1106,31 @@
           autocomplete="on"
           method="POST"
         >
-          <input
-          class="application__btn application__name btn-reset"
-          id="name"
-          name="name"
-          type="text"
-          placeholder="Имя*"
-          data-validate-field="name">
-          <input
-          class="application__btn application__tel btn-reset"
-          id="tel"
-          type="tel"
-          name="name"
-          placeholder="Телефон*"
-          data-validate-field="tel"
-          data-validate-rules="phone">
-          <buttun class="application__btn application__submit btn-reset" aria-label="Заказать обратный звонок">
+          <fieldset class="application__name-wrapper">
+            <input
+            class="application__btn application__name btn-reset"
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Имя*"
+            data-validate-field="name">
+          </fieldset>
+          <fieldset class="application__tel-wrapper">
+            <input
+            class="application__btn application__tel btn-reset"
+            id="tel"
+            type="tel"
+            name="name"
+            placeholder="Телефон*"
+            data-validate-field="tel"
+            data-validate-rules="phone">
+          </fieldset>
+          <button class="application__btn application__submit btn-reset" aria-label="Заказать обратный звонок">
             Заказать обратный звонок
-          </buttun>
-          <buttun class="application__btn application__submit-mobile btn-reset" aria-label="Заказать обратный звонок">
+          </button>
+          <button class="application__btn application__submit-mobile btn-reset" aria-label="Заказать обратный звонок">
             Заказать
-          </buttun>
+          </button>
         </form>
         <div class="contacts__messages">
           <strong class="contacts__text">
@@ -1223,8 +1227,8 @@
   <script src="https://unpkg.com/tippy.js@6"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
-  <script src="./libs/Just-validate-master/Just-validate-master/dist/js/just-validate.min.js"></script>
-  <script src="./libs/Inputmask-5.x/dist/inputmask.min.js"></script>
+  <script src="./libs/just-validate.min.js"></script>
+  <script src="./libs/inputmask.min.js"></script>
   <script src="./libs/choices.min.js"></script>
   <script src="./libs/accordion.min.js"></script>
   <script src="./js/choices-plugin.js"></script>
