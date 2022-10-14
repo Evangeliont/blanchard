@@ -116,23 +116,25 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1246 24.174C10.0376 24.174 5.32763 19.2726 5.32763 13.5104C5.32763 7.74823 10.0376 2.84676 16.1246 2.84676C22.2115 2.84676 26.9215 7.74823 26.9215 13.5104C26.9215 19.2726 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14869 8.76285 0.180847 16.1246 0.180847C23.4863 0.180847 29.4541 6.14869 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z"/>
           </svg>
         </button>
-        <form action="#" class="header__search-top search-top">
-          <button class="search-top__in-form btn-reset" aria-label="Поиск">
-            <svg class="search-top__icon" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="9.15446" height="2.28862" transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1246 24.174C10.0376 24.174 5.32763 19.2726 5.32763 13.5104C5.32763 7.74823 10.0376 2.84676 16.1246 2.84676C22.2115 2.84676 26.9215 7.74823 26.9215 13.5104C26.9215 19.2726 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14869 8.76285 0.180847 16.1246 0.180847C23.4863 0.180847 29.4541 6.14869 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z"/>
-            </svg>
-          </button>
-          <div class="search-top__wrapper">
-            <input class="search-top__submit" type="search" name="search">
-            <button class="search-top__close btn-reset" aria-label="Закрыть поиск">
-              <svg class="search-top__icon-close" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="29.567" height="2.9567" transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.09375 0)" fill="white"/>
-                <rect width="29.567" height="2.9567" transform="matrix(0.707093 -0.707121 0.707093 0.707121 0 20.9074)" fill="white"/>
+        <div class="header__serach-wrapper-for-search">
+          <form action="#" class="header__search-top search-top">
+            <button class="search-top__in-form btn-reset" aria-label="Поиск">
+              <svg class="search-top__icon" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="9.15446" height="2.28862" transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1246 24.174C10.0376 24.174 5.32763 19.2726 5.32763 13.5104C5.32763 7.74823 10.0376 2.84676 16.1246 2.84676C22.2115 2.84676 26.9215 7.74823 26.9215 13.5104C26.9215 19.2726 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14869 8.76285 0.180847 16.1246 0.180847C23.4863 0.180847 29.4541 6.14869 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z"/>
               </svg>
             </button>
-          </div>
-        </form>
+            <div class="search-top__wrapper">
+              <input class="search-top__submit" type="search" name="search">
+              <button class="search-top__close btn-reset" aria-label="Закрыть поиск">
+                <svg class="search-top__icon-close" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="29.567" height="2.9567" transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.09375 0)" fill="white"/>
+                  <rect width="29.567" height="2.9567" transform="matrix(0.707093 -0.707121 0.707093 0.707121 0 20.9074)" fill="white"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <div class="header__bottom">
@@ -346,7 +348,7 @@
         </div>
       </div>
     </section>
-    <section class="about offset" id="about">
+    <section class="about" id="about">
       <div class="container about__container">
         <h2 class="about__title title">
           О&nbsp;нас
@@ -356,7 +358,7 @@
         </p>
       </div>
     </section>
-    <section class="gallery offset">
+    <section class="gallery">
       <div class="container gallery__container">
         <div class="gallery__content flex">
           <div class="gallery__content-left flex">
@@ -446,7 +448,7 @@
         </div>
       </div>
     </section>
-    <section class="catalog offset">
+    <section class="catalog">
       <div class="container catalog__container">
         <h2 class="catalog__title title">
           Каталог
@@ -844,7 +846,7 @@
         </div>
       </div>
     </section>
-    <section class="events offset">
+    <section class="events">
       <div class="container events__container">
         <h2 class="events__title title">
           События
@@ -852,14 +854,14 @@
         <div class="events__buttons">
           <div class="events__btn evetns__btn--prev swiper-button-prev" aria-label="Предыдущий">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z" fill="#ECECEC"/>
+              <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M23.3333 16.6667L31.6667 25L23.3333 33.3333" stroke="black"/>
             </svg>
           </div>
           <div class="events__btn evetns__btn--next swiper-button-next" aria-label="Следующий">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z" fill="#ECECEC"/>
+              <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M23.3333 16.6667L31.6667 25L23.3333 33.3333" stroke="black"/>
             </svg>
@@ -992,7 +994,7 @@
         </div>
       </div>
     </section>
-    <section class="projects offset">
+    <section class="projects">
       <div class="container projects__container">
         <h2 class="projects__title title">
           Проекты

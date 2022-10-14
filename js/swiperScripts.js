@@ -56,11 +56,12 @@ const gallerySlider = new Swiper(".gallery__slider", {
 
 const eventsGallery = new Swiper('.events__swiper', {
   slidesPerView: 3,
-  slidesPerGroup: 2,
+  slidesPerGroup: 3,
   loop: false,
   spaceBetween: 50,
   pagination: {
     el: '.events__pagination',
+    clickable: true,
   },
 
   navigation: {
@@ -74,12 +75,12 @@ const eventsGallery = new Swiper('.events__swiper', {
       slidesPerView: 1,
       slidesPerGroup: 1,
     },
-    577: {
+    769: {
       spaceBetween: 34,
       slidesPerView: 2,
       slidesPerGroup: 2,
     },
-    769: {
+    1024: {
       spaceBetween: 27,
       slidesPerView: 3,
       slidesPerGroup: 3,

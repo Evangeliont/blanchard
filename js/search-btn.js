@@ -9,3 +9,7 @@ btnSearchOpen.addEventListener('click', function() {
 btnSearchClose.addEventListener('click', function() {
   inputForm.classList.remove('header__search-top--active')
 })
+
+document.querySelector('.search-top__close').addEventListener("click", function(event){
+  event.preventDefault()
+})
