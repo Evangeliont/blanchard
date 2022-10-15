@@ -521,7 +521,7 @@
 
   .application__name {
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 21px;
     margin-right: 0;
   }
 
@@ -744,11 +744,17 @@
     width: 128px;
 }
 
+.application__name,
+.application__tel {
+  padding: 5px 24px;
+}
+
   .application__submit-mobile {
     display: block;
     outline-offset: -2px;
     outline: 2px solid var(--color-purple-3);
     cursor: pointer;
+    padding: 10px 24px;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
