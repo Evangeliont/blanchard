@@ -17,15 +17,6 @@
   .header__item:not(:last-child) {
     margin-right: 42px;
   }
-
-  .accordion__persons-list  {
-    column-count: 2;
-  }
-
-  .accordion__persons-list {
-    width: 437px;
-    height: 274px;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -238,11 +229,24 @@
   }
 
   .gallery {
-    padding-bottom: 44px;
+    padding-bottom: 79px;
+  }
+
+  .gallery__content-right .swiper-wrapper {
+    height: 315px;
+
+  }
+
+  .gallery__checkbox-period {
+    margin-bottom: 35px;
   }
 
   .accordion__persons-list {
-    column-gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .accordion__persons-center {
+    margin-right: 0;
   }
 
   .events__buttons {
@@ -376,7 +380,7 @@
 
   .choices {
     margin-bottom: 40px;
-    width: 281px;
+    width: 100%;
   }
 
   .choices__list--dropdown, .choices__list[aria-expanded] {
@@ -391,9 +395,17 @@
     padding-top: 0;
   }
 
+  .gallery__content-right .swiper-wrapper {
+    height: 330px;
+  }
+
   .accordion__persons-list {
-    width: 437px;
-    height: 274px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .accordion__persons-center {
+    margin-right: 60px;
   }
 
   .catalog__content {
@@ -408,12 +420,6 @@
   .catalog__accordion {
     order: 1;
     margin-bottom: 50px;
-  }
-
-  .accordion__persons-list {
-    column-count: 3;
-    column-gap: 30px;
-    outline: none;
   }
 
   .projects__swiper {
@@ -492,8 +498,9 @@
     line-height: 32px;
   }
 
-  .accordion__persons-list  {
-    column-count: 2;
+  .accordion__persons-list {
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 
   .projects__swiper {
@@ -530,9 +537,25 @@
 }
 
 @media (max-width: 375px) {
-  .offset {
+  .header__top {
+    padding: 10px 0;
+  }
+
+  .hero__content {
+    padding-bottom: 59px;
+  }
+
+  .hero__description {
+    margin-bottom: 67px;
+  }
+
+  .hero__link-btn {
+    padding: 10px 16px;
+  }
+
+  .about {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
   }
 
   .about__title {
@@ -547,8 +570,26 @@
     line-height: 28px;
   }
 
+  .gallery {
+    padding-top: 21px;
+    padding-bottom: 49px;
+  }
+
+  .gallery__title {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;;
+    color: var(--color-white-1)
+  }
+
+  .gallery__subtitle {
+    margin-bottom: 3px;
+  }
+
   .choices {
     width: 290px;
+    margin-bottom: 29px;
   }
 
   .gallery__content-right {
@@ -559,6 +600,10 @@
     display: flex;
     order: 1;
   }
+
+  .gallery__checkbox-period {
+    margin-bottom: 29px;
+}
 
   .gallery__slider-wrapper {
     margin-bottom: 20px;
@@ -577,8 +622,118 @@
     color: var(--color-white-1);
   }
 
-  .accordion__persons-list  {
-    column-count: 1;
+  .gallery__content-right .swiper-wrapper {
+    height: 367px;
+  }
+
+  .catalog {
+    padding-top: 50px;
+    padding-bottom: 6px;
+  }
+
+  .catalog__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .catalog__description {
+    display: none;
+  }
+
+  .accordion__btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .accordion__btn .accordion__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .accordion__top {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .accordion__top .accordion__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .accordion__persons-list {
+    padding: 22px 0;
+  }
+
+  .events__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .events__img {
+    height: 196px;
+  }
+
+  .events__content {
+    padding: 13px 50px 43px 23px;
+  }
+
+  .events__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+  }
+
+  .projects {
+    padding-bottom: 0;
+  }
+
+  .projects__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .projects__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .projects__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .contacts {
+    border: 0;
+  }
+
+  .contacts__container {
+    padding-top: 20px;
+    padding-bottom: 22px;
+  }
+
+  .contacts__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  .contacts__street {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .application {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .application__submit {
