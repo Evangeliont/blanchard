@@ -1146,6 +1146,8 @@ body {
 }
 
 .accordion__persons-list {
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
   padding: 42px 0;
 }

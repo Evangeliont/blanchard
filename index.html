@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
   <link rel="stylesheet" href="./libs/choices.min.css">
   <link rel="stylesheet" href="./libs/accordion.min.css">
   <link rel="stylesheet" href="./css/normalize.css">
@@ -19,8 +19,8 @@
   <header class="header">
     <div class="header__top">
       <div class="container header__container flex">
-        <div class="header__burger burger" aria-label="Бургер-меню">
-          <button class="burger__btn btn-reset">
+        <div class="header__burger burger">
+          <button class="burger__btn btn-reset" aria-label="Бургер-меню">
             <span class="burger__btn-line"></span>
             <span class="burger__btn-line"></span>
             <span class="burger__btn-line"></span>
@@ -369,7 +369,7 @@
               Фильтр:
             </h3>
             <select name="select" id="selectCustom">
-              <option value="Живопись"></option>
+              <option value="Живопись">Живопись</option>
               <option value="Рисунок">Рисунок</option>
               <option value="Скульптура">Скульптура</option>
             </select>
@@ -524,132 +524,136 @@
                 </div>
                 <div class="accordion__bottom ac-panel">
                   <ul class="accordion__persons-list flex">
-                    <div class="accordion__persons-left">
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset" data-path="one">
-                          Бенедетто ди Биндо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset" data-path="mask">
-                          Бергоньоне, Амброджо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Биссоло, Франческо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Больтраффио, Джованни
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Бонсиньори, Франческо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Боттичини, Рафаэлло
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Брамантино
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Бреа, Людовико
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Бьяджо д’Антонио Туччи
-                        </button>
-                      </li>
-                    </div>
-                    <div class="accordion__persons-center">
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Веккьетта
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Андреа Верроккьо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person accordion__btn-person--active btn-reset" data-path="two">
-                          Доменико Гирландайо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Беноццо Гоццоли
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Граначчи, Франческо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Грегорио ди Чекко
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Джованни да Удине
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Джованни ди Паоло
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Джорджоне
-                        </button>
-                      </li>
-                    </div>
-                    <div class="accordion__persons-rigth">
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Парентино, Бернардо
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Пезеллино
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Пьетро Перуджино
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Перуцци, Бальдассаре
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Пизанелло
-                        </button>
-                      </li>
-                      <li class="accordion__persons-item">
-                        <button class="accordion__btn-person btn-reset">
-                          Пинтуриккьо
-                        </button>
-                      </li>
-                    </div>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset" data-path="one">
+                        Бенедетто ди Биндо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset" data-path="mask">
+                        Бергоньоне, Амброджо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Биссоло, Франческо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Больтраффио, Джованни
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Бонсиньори, Франческо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Боттичини, Рафаэлло
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Брамантино
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Бреа, Людовико
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Бьяджо д’Антонио Туччи
+                      </button>
+                    </li>
+                    <!-- <div class="accordion__persons-left">
+
+                    </div> -->
+
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Веккьетта
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Андреа Верроккьо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person accordion__btn-person--active btn-reset" data-path="two">
+                        Доменико Гирландайо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Беноццо Гоццоли
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Граначчи, Франческо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Грегорио ди Чекко
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Джованни да Удине
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Джованни ди Паоло
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Джорджоне
+                      </button>
+                    </li>
+                    <!-- <div class="accordion__persons-center">
+
+                    </div> -->
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Парентино, Бернардо
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Пезеллино
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Пьетро Перуджино
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Перуцци, Бальдассаре
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Пизанелло
+                      </button>
+                    </li>
+                    <li class="accordion__persons-item">
+                      <button class="accordion__btn-person btn-reset">
+                        Пинтуриккьо
+                      </button>
+                    </li>
+                    <!-- <div class="accordion__persons-rigth">
+
+                    </div> -->
                   </ul>
                 </div>
               </li>
@@ -857,32 +861,32 @@
           События
         </h2>
         <div class="events__buttons">
-          <div class="events__btn evetns__btn--prev swiper-button-prev" aria-label="Предыдущий">
+          <button class="events__btn evetns__btn--prev swiper-button-prev btn-reset" aria-label="Предыдущий">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M23.3333 16.6667L31.6667 25L23.3333 33.3333" stroke="black"/>
             </svg>
-          </div>
-          <div class="events__btn evetns__btn--next swiper-button-next" aria-label="Следующий">
+          </button>
+          <button class="events__btn evetns__btn--next swiper-button-next btn-reset" aria-label="Следующий">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z"/>
               <path d="M23.3333 16.6667L31.6667 25L23.3333 33.3333" stroke="black"/>
             </svg>
-          </div>
+          </button>
         </div>
         <div class="events__swiper swiper">
           <ul class="events__wrapper swiper-wrapper flex">
             <li class="events-slide swiper-slide">
               <article class="events__article">
                 <span class="events__img events__img-1"></span>
-                <figcaption class="events__info-event">
+                <div class="events__info-event">
                   Музей им. Щусева
                   <p class="events__data description">
                     с&nbsp;20&nbsp;марта по&nbsp;30&nbsp;апреля
                   </p>
-                </figcaption>
+                </div>
                 <div class="events__content flex">
                   <h3 class="events__subtitle title">
                     Книжная гравюра в&nbsp;живом восприятии
@@ -901,12 +905,12 @@
             <li class="events-slide swiper-slide">
               <article class="events__article">
                 <span class="events__img events__img-2"></span>
-                <figcaption class="events__info-event">
+                <div class="events__info-event">
                   ММОМА
                   <p class="events__data description">
                     24&nbsp;марта 19:00
                   </p>
-                </figcaption>
+                </div>
                 <div class="events__content flex">
                   <h3 class="events__subtitle title">
                     &laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей Ильин.
@@ -925,12 +929,12 @@
             <li class="events-slide swiper-slide">
               <article class="events__article">
                 <span class="events__img events__img-3"></span>
-                <figcaption class="events__info-event">
+                <div class="events__info-event">
                   Еврейский музей
                   <p class="events__data description">
                     с&nbsp;31&nbsp;марта по&nbsp;21&nbsp;апреля
                   </p>
-                </figcaption>
+                </div>
                 <div class="events__content flex">
                   <h3 class="events__subtitle title">
                     Выставка &laquo;Формация 2020&raquo;
@@ -949,12 +953,12 @@
             <li class="events-slide swiper-slide">
               <article class="events__article">
                 <span class="events__img events__img-4"></span>
-                <figcaption class="events__info-event">
+                <div class="events__info-event">
                   ММАМ
                   <p class="events__data description">
                     с&nbsp;8&nbsp;апреля по&nbsp;20&nbsp;мая
                   </p>
-                </figcaption>
+                </div>
                 <div class="events__content flex">
                   <h3 class="events__subtitle title">
                     Джон Винзор. Фотографии из&nbsp;серии &laquo;Метафора&raquo;
@@ -973,12 +977,12 @@
             <li class="events-slide swiper-slide">
               <article class="events__article">
                 <span class="events__img events__img-5"></span>
-                <figcaption class="events__info-event">
+                <div class="events__info-event">
                   Третьяковка на&nbsp;Крымском валу
                   <p class="events__data description">
                     с&nbsp;30&nbsp;марта по&nbsp;30&nbsp;апреля
                   </p>
-                </figcaption>
+                </div>
                 <div class="events__content flex">
                   <h3 class="events__subtitle title">
                     XXIV Международная биеннале молодого искусства
@@ -1032,20 +1036,20 @@
           Партнёры проектов:
         </h3>
         <div class="projects__buttons">
-          <div class="projects__btn projects__btn--prev swiper-button-prev" aria-label="Предыдущий">
+          <button class="projects__btn projects__btn--prev swiper-button-prev btn-reset" aria-label="Предыдущий">
             <svg class="projects__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"/>
               <path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"/>
               <path d="M16 20L11 15L16 10" stroke="black"/>
             </svg>
-          </div>
-          <div class="projects__btn projects__btn--next swiper-button-next" aria-label="Следующий">
+          </button>
+          <button class="projects__btn projects__btn--next swiper-button-next btn-reset" aria-label="Следующий">
             <svg class="projects__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"/>
               <path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"/>
               <path d="M16 20L11 15L16 10" stroke="black"/>
             </svg>
-          </div>
+          </button>
         </div>
         <div class="projects__swiper swiper">
           <div class="projects__wrapper swiper-wrapper">
@@ -1140,9 +1144,9 @@
           </button>
         </form>
         <div class="contacts__messages">
-          <strong class="contacts__text">
+          <h3 class="contacts__text title">
             Связаться в один клик
-          </strong>
+          </h3>
           <div class="contacts__network">
             <a href="#" class="contacts__whatsapp" aria-label="Whatsapp">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1173,8 +1177,6 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="yandex-map">
       <div id="map" class="yandex__map"></div>
     </section>
   </main>
@@ -1229,7 +1231,7 @@
       </div>
     </div>
   </footer>
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://unpkg.com/tippy.js@6"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
