@@ -1146,8 +1146,11 @@ body {
 }
 
 .accordion__persons-list {
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: block;
+  column-fill: auto;
+  column-count: 3;
+  column-gap: 50px;
+  min-height: auto;
   width: 100%;
   padding: 42px 0;
 }
@@ -1889,5 +1892,3 @@ body {
 .footer__ok:active svg path {
   fill: #9D5CD0;
 }
-
-
