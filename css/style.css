@@ -679,7 +679,7 @@ body {
   z-index: 1;
   position: absolute;
   max-width: 100%;
-  background-color: var(--black-color);
+  background-color: var(--color-black-1);
   border: 1px solid var(--color-grey-2);
   top: 100%;
   margin-top: -1px;
